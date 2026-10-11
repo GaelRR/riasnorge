@@ -392,3 +392,14 @@ a:focus-visible,summary:focus-visible,button:focus-visible{
 .skip{position:absolute;left:-9999px;top:0;z-index:100;background:var(--celeste);color:#fff;padding:.8em 1.3em;border-radius:0 0 9px 0;font-weight:600}
 .skip:focus{left:0}
 .visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* Otras tarifas (oct 2026) */
+.price--wide{margin-top:24px}
+.price__title{font-size:1.15rem;font-weight:700;letter-spacing:-.015em;margin:0}
+.zones--big{font-size:.92rem}
+.zones--big td{padding:.75em .4em;vertical-align:top}
+.zones--big td:last-child b{color:var(--celeste)}
+.zones--big td .small{color:var(--gris);font-size:.82rem}
+@media (max-width:640px){.zones--big td .small{display:block}}
+.zones--big td:not(:first-child){white-space:nowrap}
+@media (max-width:640px){.zones--big th:nth-child(2),.zones--big td:nth-child(2){display:none}}
